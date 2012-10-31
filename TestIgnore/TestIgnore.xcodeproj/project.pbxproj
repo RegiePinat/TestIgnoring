@@ -15,6 +15,8 @@
 		DB514F951640FC3D009CD72D /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB514F941640FC3D009CD72D /* TestAppDelegate.m */; };
 		DB514F981640FC3D009CD72D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB514F971640FC3D009CD72D /* TestViewController.m */; };
 		DB514F9B1640FC3D009CD72D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB514F991640FC3D009CD72D /* TestViewController.xib */; };
+		DB514FA3164109C2009CD72D /* Coins.m in Sources */ = {isa = PBXBuildFile; fileRef = DB514FA2164109C2009CD72D /* Coins.m */; };
+		DB514FA516411080009CD72D /* ElectricOrb.png in Resources */ = {isa = PBXBuildFile; fileRef = DB514FA416411080009CD72D /* ElectricOrb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		DB514F961640FC3D009CD72D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		DB514F971640FC3D009CD72D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		DB514F9A1640FC3D009CD72D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
+		DB514FA1164109C1009CD72D /* Coins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coins.h; sourceTree = "<group>"; };
+		DB514FA2164109C2009CD72D /* Coins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coins.m; sourceTree = "<group>"; };
+		DB514FA416411080009CD72D /* ElectricOrb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElectricOrb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 				DB514F941640FC3D009CD72D /* TestAppDelegate.m */,
 				DB514F961640FC3D009CD72D /* TestViewController.h */,
 				DB514F971640FC3D009CD72D /* TestViewController.m */,
+				DB514FA1164109C1009CD72D /* Coins.h */,
+				DB514FA2164109C2009CD72D /* Coins.m */,
+				DB514FA416411080009CD72D /* ElectricOrb.png */,
 				DB514F991640FC3D009CD72D /* TestViewController.xib */,
 				DB514F8B1640FC3D009CD72D /* Supporting Files */,
 			);
@@ -152,6 +160,7 @@
 			files = (
 				DB514F8F1640FC3D009CD72D /* InfoPlist.strings in Resources */,
 				DB514F9B1640FC3D009CD72D /* TestViewController.xib in Resources */,
+				DB514FA516411080009CD72D /* ElectricOrb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +174,7 @@
 				DB514F911640FC3D009CD72D /* main.m in Sources */,
 				DB514F951640FC3D009CD72D /* TestAppDelegate.m in Sources */,
 				DB514F981640FC3D009CD72D /* TestViewController.m in Sources */,
+				DB514FA3164109C2009CD72D /* Coins.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

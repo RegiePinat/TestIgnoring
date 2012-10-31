@@ -7,8 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Coins.h"
 @interface TestViewController : UIViewController
-- (IBAction)TestButton:(UIButton *)sender;
+{
+    NSTimer *timerGame;
+    NSTimer *moveTimer;
+    
+    
+    int gameTime;
+    float movementSpeed;
+}
 
+- (IBAction)TestButton:(UIButton *)sender;
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+@property (retain, nonatomic) IBOutlet NSMutableArray *arrayofCoins;
+
+
+-(void)createCoins;
+-(void)moveCoins;
+-(int)getRandomNumber:(int)from to:(int)to;
 @end
