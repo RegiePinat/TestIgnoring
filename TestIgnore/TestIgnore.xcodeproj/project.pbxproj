@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB514F851640FC3D009CD72D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB514F841640FC3D009CD72D /* UIKit.framework */; };
+		DB514F871640FC3D009CD72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB514F861640FC3D009CD72D /* Foundation.framework */; };
+		DB514F891640FC3D009CD72D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB514F881640FC3D009CD72D /* CoreGraphics.framework */; };
+		DB514F8F1640FC3D009CD72D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB514F8D1640FC3D009CD72D /* InfoPlist.strings */; };
+		DB514F911640FC3D009CD72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB514F901640FC3D009CD72D /* main.m */; };
+		DB514F951640FC3D009CD72D /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB514F941640FC3D009CD72D /* TestAppDelegate.m */; };
+		DB514F981640FC3D009CD72D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB514F971640FC3D009CD72D /* TestViewController.m */; };
+		DB514F9B1640FC3D009CD72D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB514F991640FC3D009CD72D /* TestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB514F801640FC3D009CD72D /* TestIgnore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIgnore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB514F841640FC3D009CD72D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB514F861640FC3D009CD72D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB514F881640FC3D009CD72D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB514F8C1640FC3D009CD72D /* TestIgnore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestIgnore-Info.plist"; sourceTree = "<group>"; };
+		DB514F8E1640FC3D009CD72D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB514F901640FC3D009CD72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB514F921640FC3D009CD72D /* TestIgnore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestIgnore-Prefix.pch"; sourceTree = "<group>"; };
+		DB514F931640FC3D009CD72D /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		DB514F941640FC3D009CD72D /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		DB514F961640FC3D009CD72D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		DB514F971640FC3D009CD72D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		DB514F9A1640FC3D009CD72D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB514F7D1640FC3C009CD72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB514F851640FC3D009CD72D /* UIKit.framework in Frameworks */,
+				DB514F871640FC3D009CD72D /* Foundation.framework in Frameworks */,
+				DB514F891640FC3D009CD72D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB514F751640FC3C009CD72D = {
+			isa = PBXGroup;
+			children = (
+				DB514F8A1640FC3D009CD72D /* TestIgnore */,
+				DB514F831640FC3D009CD72D /* Frameworks */,
+				DB514F811640FC3D009CD72D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB514F811640FC3D009CD72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB514F801640FC3D009CD72D /* TestIgnore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB514F831640FC3D009CD72D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB514F841640FC3D009CD72D /* UIKit.framework */,
+				DB514F861640FC3D009CD72D /* Foundation.framework */,
+				DB514F881640FC3D009CD72D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB514F8A1640FC3D009CD72D /* TestIgnore */ = {
+			isa = PBXGroup;
+			children = (
+				DB514F931640FC3D009CD72D /* TestAppDelegate.h */,
+				DB514F941640FC3D009CD72D /* TestAppDelegate.m */,
+				DB514F961640FC3D009CD72D /* TestViewController.h */,
+				DB514F971640FC3D009CD72D /* TestViewController.m */,
+				DB514F991640FC3D009CD72D /* TestViewController.xib */,
+				DB514F8B1640FC3D009CD72D /* Supporting Files */,
+			);
+			path = TestIgnore;
+			sourceTree = "<group>";
+		};
+		DB514F8B1640FC3D009CD72D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB514F8C1640FC3D009CD72D /* TestIgnore-Info.plist */,
+				DB514F8D1640FC3D009CD72D /* InfoPlist.strings */,
+				DB514F901640FC3D009CD72D /* main.m */,
+				DB514F921640FC3D009CD72D /* TestIgnore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB514F7F1640FC3C009CD72D /* TestIgnore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB514F9E1640FC3D009CD72D /* Build configuration list for PBXNativeTarget "TestIgnore" */;
+			buildPhases = (
+				DB514F7C1640FC3C009CD72D /* Sources */,
+				DB514F7D1640FC3C009CD72D /* Frameworks */,
+				DB514F7E1640FC3C009CD72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestIgnore;
+			productName = TestIgnore;
+			productReference = DB514F801640FC3D009CD72D /* TestIgnore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB514F771640FC3C009CD72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Test;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Regie G. Pinat";
+			};
+			buildConfigurationList = DB514F7A1640FC3C009CD72D /* Build configuration list for PBXProject "TestIgnore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB514F751640FC3C009CD72D;
+			productRefGroup = DB514F811640FC3D009CD72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB514F7F1640FC3C009CD72D /* TestIgnore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB514F7E1640FC3C009CD72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB514F8F1640FC3D009CD72D /* InfoPlist.strings in Resources */,
+				DB514F9B1640FC3D009CD72D /* TestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB514F7C1640FC3C009CD72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB514F911640FC3D009CD72D /* main.m in Sources */,
+				DB514F951640FC3D009CD72D /* TestAppDelegate.m in Sources */,
+				DB514F981640FC3D009CD72D /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB514F8D1640FC3D009CD72D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB514F8E1640FC3D009CD72D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB514F991640FC3D009CD72D /* TestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB514F9A1640FC3D009CD72D /* en */,
+			);
+			name = TestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB514F9C1640FC3D009CD72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB514F9D1640FC3D009CD72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB514F9F1640FC3D009CD72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestIgnore/TestIgnore-Prefix.pch";
+				INFOPLIST_FILE = "TestIgnore/TestIgnore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB514FA01640FC3D009CD72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestIgnore/TestIgnore-Prefix.pch";
+				INFOPLIST_FILE = "TestIgnore/TestIgnore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB514F7A1640FC3C009CD72D /* Build configuration list for PBXProject "TestIgnore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB514F9C1640FC3D009CD72D /* Debug */,
+				DB514F9D1640FC3D009CD72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB514F9E1640FC3D009CD72D /* Build configuration list for PBXNativeTarget "TestIgnore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB514F9F1640FC3D009CD72D /* Debug */,
+				DB514FA01640FC3D009CD72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB514F771640FC3C009CD72D /* Project object */;
+}
