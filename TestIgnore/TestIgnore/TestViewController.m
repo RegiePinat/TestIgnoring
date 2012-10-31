@@ -31,4 +31,6 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)TestButton:(UIButton *)sender {
+}
 @end
