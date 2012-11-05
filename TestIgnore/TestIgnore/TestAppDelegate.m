@@ -4,7 +4,7 @@
 //
 
 //  Copyright (c) 2012 Regie G. Pinat. All rights reserved.
-//
+//  Brownie
 
 #import "TestAppDelegate.h"
 
