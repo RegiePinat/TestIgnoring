@@ -26,6 +26,8 @@
     gameTime =0;
     movementSpeed = 1;
     
+    //try by ced
+    
     
     
     arrayofCoins = [[[NSMutableArray alloc] init] autorelease];
