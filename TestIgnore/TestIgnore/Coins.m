@@ -31,6 +31,8 @@
     distancevar.ydistance = self.center.y - character.center.y;
  distancevar.mainDistance = (float) sqrt(pow(distancevar.xdistance, 2) + pow(distancevar.ydistance, 2));
     
+    //try by ced
+    
     return distancevar;
 }
 
