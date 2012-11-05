@@ -74,7 +74,7 @@
 {
     
     
-    
+    NSLog(@"TEST");
     
 }
 
@@ -132,10 +132,7 @@
 }
 
 - (void)dealloc {
-//[arrayofCoins removeAllObjects];
-// arrayofCoins=nil;
-//[arrayofCoins release];
-    
+
     [timerGame release];
     [moveTimer release];
     [imageView release];

@@ -86,10 +86,10 @@
 				DB514F941640FC3D009CD72D /* TestAppDelegate.m */,
 				DB514F961640FC3D009CD72D /* TestViewController.h */,
 				DB514F971640FC3D009CD72D /* TestViewController.m */,
+				DB514F991640FC3D009CD72D /* TestViewController.xib */,
 				DB514FA1164109C1009CD72D /* Coins.h */,
 				DB514FA2164109C2009CD72D /* Coins.m */,
 				DB514FA416411080009CD72D /* ElectricOrb.png */,
-				DB514F991640FC3D009CD72D /* TestViewController.xib */,
 				DB514F8B1640FC3D009CD72D /* Supporting Files */,
 			);
 			path = TestIgnore;
@@ -288,6 +288,7 @@
 				DB514FA01640FC3D009CD72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
