@@ -51,6 +51,9 @@
     [timerGame invalidate];
     [moveTimer invalidate];
     
+    
+
+    
     timerGame = nil;
     moveTimer =nil;
     [self setImageView:nil];
@@ -76,8 +79,13 @@
 {
     
     
-    NSLog(@"TEST");
+    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+    [imagePicker retain];
     
+    
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+        [imagePicker setSourceType:UIImagePickerControllerSourceTypeCamera];
+    }
 }
 
 
